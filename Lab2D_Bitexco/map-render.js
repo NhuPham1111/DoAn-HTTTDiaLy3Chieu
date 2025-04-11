@@ -22,7 +22,22 @@ require([
   "esri/views/MapView",
   "esri/Graphic",
   "esri/layers/GraphicsLayer",
-], function (Map, MapView, Graphic, GraphicsLayer) {
+  "esri/widgets/Search",
+  "esri/widgets/Home",
+  "esri/widgets/Locate",
+  "esri/widgets/Compass",
+  "esri/widgets/Fullscreen",
+], function (
+  Map,
+  MapView,
+  Graphic,
+  GraphicsLayer,
+  Search,
+  Home,
+  Locate,
+  Compass,
+  Fullscreen
+) {
   map = new Map({
     basemap: "topo-vector",
   });
@@ -53,7 +68,30 @@ require([
   const graphicsLayer = new GraphicsLayer();
   map.add(graphicsLayer);
 
-  // Load du lieu tu file
+  // Search
+  const search = new Search({ view });
+  view.ui.add(search, "top-right");
+
+  // Home
+  const home = new Home({ view });
+  view.ui.add(home, "top-left");
+
+  // Locate
+  const locate = new Locate({ view });
+  view.ui.add(locate, "top-left");
+
+  // Compass
+  const compass = new Compass({ view });
+  view.ui.add(compass, "top-left");
+
+  // Fullscreen
+  const fullscreen = new Fullscreen({
+    view: view,
+    element: document.getElementById("viewDiv"),
+  });
+  view.ui.add(fullscreen, "top-right");
+
+  // Load du lieu tu file json
 
   fetch("data.json")
     .then((response) => response.json())

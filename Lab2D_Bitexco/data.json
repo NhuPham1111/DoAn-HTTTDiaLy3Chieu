@@ -232,7 +232,7 @@
       },
       "properties": {
         "title": " Vòng xoay Công trường dân chủ",
-        "description": "Đây là một đa giác "
+        "description": "Đây là một đa giác vẽ vòng xoay Dân Chủ tại quận 1 "
       },
       "symbol": {
         "type": "simple-fill",
@@ -270,7 +270,7 @@
       "symbol": {
         "type": "simple-line",
         "color": [255, 0, 255, 0.44],
-        "width": 3
+        "width": 4
       },
       "properties": {
         "title": "Đường Tôn Đức Thắng",
@@ -297,7 +297,7 @@
       "symbol": {
         "type": "simple-line",
         "color": [255, 0, 255, 0.44],
-        "width": 3
+        "width": 4
       },
       "properties": {
         "title": "Đường Tôn Đức Thắng",
@@ -389,7 +389,7 @@
       },
       "properties": {
         "title": "Khu vực Chợ Bến Thành",
-        "description": "Đây là 1 đa giác - khu chợ nổi tiếng quận 1"
+        "description": "Đây là 1 đa giác vẽ khu chợ nổi tiếng quận 1 - Chợ Bến Thành"
       },
       "symbol": {
         "type": "simple-fill",
@@ -408,7 +408,7 @@
       },
       "properties": {
         "title": "Chợ Bến Thành",
-        "description": "Phường Bến Thành, Quận 1, Hồ Chí Minh, Việt Nam"
+        "description": "Đây là một điểm - Phường Bến Thành, Quận 1, Hồ Chí Minh, Việt Nam"
       },
       "symbol": {
         "type": "picture-marker",
@@ -458,7 +458,7 @@
       },
       "properties": {
         "title": "Khu vực Nhà Thờ Đức Bà",
-        "description": "Đây là một đa giác - trong những địa điểm du lịch tâm linh nổi tiếng "
+        "description": "Đây là một đa giác vẽ Nhà Thờ Đức Bà, một trong những địa điểm du lịch tâm linh nổi tiếng tại TP.HCM "
       },
       "symbol": {
         "type": "simple-fill",
@@ -579,6 +579,39 @@
         "description": "Đây là một đường"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polyline",
+        "coordinates": [
+          [106.69345531851329, 10.771465929232875],
+          [106.69420454867979, 10.771968326102819],
+          [106.69493053314413, 10.772467208772984],
+          [106.69544551760247, 10.77282556052647],
+          [106.69654701100151, 10.773584421655514],
+          [106.69728730068974, 10.774111407425492],
+          [106.69780586153591, 10.774455704350665],
+          [106.69837448984715, 10.775088085333973],
+          [106.7017504964899, 10.778776947764506],
+          [106.70209560760208, 10.779130022242775],
+          [106.70261416779341, 10.779699156349487],
+          [106.70330081330133, 10.780436921182115],
+          [106.70401606925702, 10.781230894755089],
+          [106.70459542640431, 10.781870287846667],
+          [106.70544479281077, 10.782783704168791]
+        ]
+      },
+      "symbol": {
+        "type": "simple-line",
+        "color": [255, 144, 0, 0.5],
+        "width": 3
+      },
+      "properties": {
+        "title": "Đường Lý Tự Trọng",
+        "description": "Đây là một đường"
+      }
+    },
+
     {
       "type": "Feature",
       "geometry": {
@@ -877,6 +910,40 @@
         "url": "./imgs/school.png",
         "width": "50px",
         "height": "50px"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.70098696142722, 10.773691575557075]
+      },
+      "properties": {
+        "title": "Trung TTâm Thương Mại Sài Gòn Centre",
+        "description": "Đây là một điểm - 65 Lê Lợi, Bến Nghé, Quận 1, Hồ Chí Minh 70000, Việt Nam"
+      },
+      "symbol": {
+        "type": "picture-marker",
+        "url": "./imgs/cart-shopping-solid.svg",
+        "width": "20px",
+        "height": "20px"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69836823092302, 10.781190493554178]
+      },
+      "properties": {
+        "title": "Diamond Plaza",
+        "description": "Đây là một điểm - 34 Lê Duẩn, Bến Nghé, Quận 1, Hồ Chí Minh, Việt Nam"
+      },
+      "symbol": {
+        "type": "picture-marker",
+        "url": "./imgs/cart-shopping-solid.svg",
+        "width": "20px",
+        "height": "20px"
       }
     }
   ]
